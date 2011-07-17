@@ -1,3 +1,5 @@
+Extended to support AL1,IN1
+
 =Ruby HL7 Library README
 
 A simple way to parse and create hl7 2.x messages with ruby.
