@@ -193,7 +193,7 @@ class HL7::Message
 
   # provide a screen-readable version of the message
   def to_s    
-    @segments.collect { |s| s if s.to_s.length > 0 }.join( "\n" )                               
+    @segments.collect { |s| s if s.to_s.length > 0 }.join( "<br />" )                               
   end
 
   # provide a HL7 spec version of the message
